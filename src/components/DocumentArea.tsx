@@ -10,7 +10,7 @@ interface DocumentAreaProps {
   panicMode: boolean;
 }
 
-const DocumentArea: React.FC<DocumentAreaProps> = ({ activeTab, setActiveTab, matchId, panicMode }) => {
+const DocumentArea: React.FC<DocumentAreaProps> = ({ setActiveTab, matchId, panicMode }) => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

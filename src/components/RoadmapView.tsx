@@ -1,5 +1,3 @@
-import React from 'react';
-
 const RoadmapView = () => {
   return (
     <div style={{ padding: '24px 48px', color: '#1f1f1f', lineHeight: '1.6' }}>

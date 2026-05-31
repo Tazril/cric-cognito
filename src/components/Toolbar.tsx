@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Toolbar = () => {
   const divider = <div style={{ width: '1px', height: '20px', backgroundColor: 'var(--border-color)', margin: '0 6px' }} />;
 

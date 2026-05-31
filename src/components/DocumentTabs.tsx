@@ -7,7 +7,7 @@ interface DocumentTabsProps {
   onBackClick: () => void;
 }
 
-const DocumentTabs: React.FC<DocumentTabsProps> = ({ activeTab, setActiveTab, panicMode, onBackClick }) => {
+const DocumentTabs: React.FC<DocumentTabsProps> = ({ activeTab, panicMode, onBackClick }) => {
   const tabs = panicMode ? ['Executive Summary'] : ['Executive Summary', 'Real-time Telemetry', 'Performance Matrix'];
 
   return (
